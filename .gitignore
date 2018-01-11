@@ -5,3 +5,12 @@ jscs.report.txt
 /node_modules
 jquery.bxslider.zip
 npm-debug.log
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
