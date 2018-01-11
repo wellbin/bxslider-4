@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/stevenwanderski/bxslider-4/issues"
   },
+  "main": "dist/jquery.bxslider.min.js",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cssmin": "^0.1.7",
