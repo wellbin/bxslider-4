@@ -17,6 +17,7 @@
     speed: 500,
     easing: null,
     slideMargin: 0,
+    marginOnLastSlide: false,
     startSlide: 0,
     randomStart: false,
     captions: false,
@@ -1397,7 +1398,7 @@
             lastChild = slider.children.eq(slider.children.length - 1);
             position = lastChild.position();
             // calculate the position of the last slide
-            moveBy = slider.viewport.width() - lastChild.outerWidth();
+            moveBy = slider.viewport.width() - lastChild.outerWidth() - (slider.settings.marginOnLastSlide ? slider.settings.slideMargin : 0);
           } else {
             // get last showing index position
             lastShowingIndex = slider.children.length - slider.settings.minSlides;
